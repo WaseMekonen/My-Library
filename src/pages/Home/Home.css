@@ -1,0 +1,100 @@
+.banner ul {
+  background-color: #ffffffc9;
+  margin-bottom: 0;
+  height: 45px;
+  width: 100vw;
+}
+
+.banner {
+  display: flex;
+  width: 100vw;
+  height: 300px;
+  background: url(https://cdn.pixabay.com/photo/2021/08/07/14/36/modern-6528732_960_720.png);
+  background-repeat: no-repeat;
+  border: none;
+  background-size: cover;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 63px;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.home-titles h2 {
+  font-size: 45px;
+  font-family: -webkit-body;
+  color: white;
+  margin-bottom: 38px;
+}
+
+.home-titles h4 {
+  font-size: 23px;
+  color: white;
+  font-family: emoji;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.register-link {
+  text-align: center;
+  width: 13%;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  cursor: pointer;
+  border-bottom: 2px solid #504f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-link:hover {
+  text-align: center;
+  width: 13%;
+  height: 44px;
+  border-radius: 10px;
+  background: rgb(255, 166, 0);
+  background: linear-gradient(
+    42deg,
+    rgba(255, 166, 0, 1) 15%,
+    rgba(255, 128, 70, 1) 59%,
+    rgba(255, 220, 105, 1) 100%
+  );
+  cursor: pointer;
+  border-bottom: 2px solid #504f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.login-link {
+  margin-right: 29px;
+  text-align: center;
+  width: 13%;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #f2eaea;
+  cursor: pointer;
+  border-bottom: 2px solid #504f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}

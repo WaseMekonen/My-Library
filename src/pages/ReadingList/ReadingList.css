@@ -1,0 +1,18 @@
+.book-button button {
+  cursor: pointer;
+  margin-top: 33px;
+}
+
+.book-container {
+  margin-top: 57px;
+  margin-left: 133px;
+  margin-bottom: 23px;
+  background-color: #f5f5f5;
+  width: 78vw;
+  height: 175px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-right-radius: 12px;
+  box-shadow: 3px 5px 11px grey;
+  border: 1px solid gray;
+}
